@@ -1,0 +1,17 @@
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\bin\Debug\net6.0\RewardsSystem.Persistence.deps.json
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\bin\Debug\net6.0\RewardsSystem.Persistence.dll
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\bin\Debug\net6.0\RewardsSystem.Persistence.pdb
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\obj\Debug\net6.0\RewardsSystem.Persistence.csproj.AssemblyReference.cache
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\obj\Debug\net6.0\RewardsSystem.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\obj\Debug\net6.0\RewardsSystem.Persistence.AssemblyInfoInputs.cache
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\obj\Debug\net6.0\RewardsSystem.Persistence.AssemblyInfo.cs
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\obj\Debug\net6.0\RewardsSystem.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\obj\Debug\net6.0\RewardsSystem.Persistence.dll
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\obj\Debug\net6.0\refint\RewardsSystem.Persistence.dll
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\obj\Debug\net6.0\RewardsSystem.Persistence.pdb
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\obj\Debug\net6.0\ref\RewardsSystem.Persistence.dll
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\bin\Debug\net6.0\RewardsSystem.Domain.dll
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\bin\Debug\net6.0\RewardsSystem.Domain.pdb
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\obj\Debug\net6.0\RewardsSystem.Persistence.csproj.CopyComplete
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\bin\Debug\net6.0\RewardsSystem.Shared.dll
+C:\Users\Denis\source\repos\RewardsSystem\infrastructure\RewardsSystem.Persistence\bin\Debug\net6.0\RewardsSystem.Shared.pdb

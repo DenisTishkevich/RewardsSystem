@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RewardsSystem.API", "api\RewardsSystem.API\RewardsSystem.API.csproj", "{483BBE01-AAEA-45B8-ABF1-E3D1150A14CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RewardsSystem.Persistence", "infrastructure\RewardsSystem.Persistence\RewardsSystem.Persistence.csproj", "{9EB90C6B-F37A-42D8-8C14-C3CEFD233796}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RewardsSystem.Domain", "core\RewardsSystem.Domain\RewardsSystem.Domain.csproj", "{6929E299-E770-464B-A4AE-1DA4BBD56B5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RewardsSystem.Shared", "core\RewardsSystem.Shared\RewardsSystem.Shared.csproj", "{B053AE38-9D07-441C-859C-AE4C824D9B2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RewardsSystem.Service", "core\RewardsSystem.Service\RewardsSystem.Service.csproj", "{6ACDA820-5A5D-4C46-93F1-D267B84CF548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RewardsSystem.Common", "core\RewardsSystem.Common\RewardsSystem.Common.csproj", "{8CC633F8-6D53-4643-8430-D6C756466BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{483BBE01-AAEA-45B8-ABF1-E3D1150A14CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483BBE01-AAEA-45B8-ABF1-E3D1150A14CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483BBE01-AAEA-45B8-ABF1-E3D1150A14CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483BBE01-AAEA-45B8-ABF1-E3D1150A14CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB90C6B-F37A-42D8-8C14-C3CEFD233796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB90C6B-F37A-42D8-8C14-C3CEFD233796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB90C6B-F37A-42D8-8C14-C3CEFD233796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB90C6B-F37A-42D8-8C14-C3CEFD233796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6929E299-E770-464B-A4AE-1DA4BBD56B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6929E299-E770-464B-A4AE-1DA4BBD56B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6929E299-E770-464B-A4AE-1DA4BBD56B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6929E299-E770-464B-A4AE-1DA4BBD56B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B053AE38-9D07-441C-859C-AE4C824D9B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B053AE38-9D07-441C-859C-AE4C824D9B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B053AE38-9D07-441C-859C-AE4C824D9B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B053AE38-9D07-441C-859C-AE4C824D9B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACDA820-5A5D-4C46-93F1-D267B84CF548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACDA820-5A5D-4C46-93F1-D267B84CF548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACDA820-5A5D-4C46-93F1-D267B84CF548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACDA820-5A5D-4C46-93F1-D267B84CF548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC633F8-6D53-4643-8430-D6C756466BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC633F8-6D53-4643-8430-D6C756466BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC633F8-6D53-4643-8430-D6C756466BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC633F8-6D53-4643-8430-D6C756466BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCE98961-97F1-447A-B250-457CBF2441C8}
+	EndGlobalSection
+EndGlobal

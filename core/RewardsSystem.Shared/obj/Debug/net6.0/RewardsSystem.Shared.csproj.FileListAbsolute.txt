@@ -1,0 +1,15 @@
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\bin\Debug\net6.0\RewardsSystem.Shared.deps.json
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\bin\Debug\net6.0\RewardsSystem.Shared.dll
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\bin\Debug\net6.0\RewardsSystem.Shared.pdb
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\obj\Debug\net6.0\RewardsSystem.Shared.csproj.AssemblyReference.cache
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\obj\Debug\net6.0\RewardsSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\obj\Debug\net6.0\RewardsSystem.Shared.AssemblyInfoInputs.cache
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\obj\Debug\net6.0\RewardsSystem.Shared.AssemblyInfo.cs
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\obj\Debug\net6.0\RewardsSystem.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\obj\Debug\net6.0\RewardsSystem.Shared.dll
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\obj\Debug\net6.0\refint\RewardsSystem.Shared.dll
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\obj\Debug\net6.0\RewardsSystem.Shared.pdb
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\obj\Debug\net6.0\ref\RewardsSystem.Shared.dll
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\bin\Debug\net6.0\RewardsSystem.Domain.dll
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\bin\Debug\net6.0\RewardsSystem.Domain.pdb
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Shared\obj\Debug\net6.0\RewardsSystem.Shared.csproj.CopyComplete

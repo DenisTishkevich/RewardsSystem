@@ -1,0 +1,12 @@
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\bin\Debug\net6.0\RewardsSystem.Domain.deps.json
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\bin\Debug\net6.0\RewardsSystem.Domain.dll
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\bin\Debug\net6.0\RewardsSystem.Domain.pdb
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\obj\Debug\net6.0\RewardsSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\obj\Debug\net6.0\RewardsSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\obj\Debug\net6.0\RewardsSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\obj\Debug\net6.0\RewardsSystem.Domain.AssemblyInfo.cs
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\obj\Debug\net6.0\RewardsSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\obj\Debug\net6.0\RewardsSystem.Domain.dll
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\obj\Debug\net6.0\refint\RewardsSystem.Domain.dll
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\obj\Debug\net6.0\RewardsSystem.Domain.pdb
+C:\Users\Denis\source\repos\RewardsSystem\core\RewardsSystem.Domain\obj\Debug\net6.0\ref\RewardsSystem.Domain.dll

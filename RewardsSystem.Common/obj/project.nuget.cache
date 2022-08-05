@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4FiboxLzxcm9HRi3Uy1qA8emCO97vbUzOCr9jr8W5fCvqXozn6u/hvk9UazNlCEA7OS3b8thWo5NnF86wgApaw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Denis\\source\\repos\\RewardsSystem\\RewardsSystem.Common\\RewardsSystem.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Denis\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Denis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

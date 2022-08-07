@@ -29,7 +29,7 @@ dotnet run -p RewardsSystem.API --configuration Development
 ```
 
 ## Used Technologies
-.NET 6, C#10, .NET Core Web API, Entity Framework Core, MediatR, Fluent Validations, AutoMapper, Health Check, Logger, Swagger.
+.NET 6, C#10, .NET Core Web API, MS SQL, Entity Framework Core, MediatR, Fluent Validations, AutoMapper, Health Check, Logger, Swagger.
 
 ## Database Diagram
 ![image](https://user-images.githubusercontent.com/110542997/183072349-d3dbb8dd-721a-42d8-ac32-d194e983413c.png)

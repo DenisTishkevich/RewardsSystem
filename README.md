@@ -142,6 +142,8 @@ Using MediatR, I implemented the CQRS pattern, that is, I separated the logic of
 By using AutoMapper, I have reduced the amount of code that would have to be written to create an object and populate all of its fields.
 
 ## Unit Tests
+![image](https://user-images.githubusercontent.com/110542997/183308363-6e0d443a-a684-4d9e-8d26-6d963ae16e09.png)
+
 CD into `RewardsSystem`.
 
 If Visual Studio is installed: click at the top View - Test Explorer - Run All Tests in View.

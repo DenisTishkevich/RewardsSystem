@@ -1926,8 +1926,8 @@
     },
     "RewardsSystem.Common/1.0.0": {
       "type": "project",
-      "path": "../../RewardsSystem.Common/RewardsSystem.Common.csproj",
-      "msbuildProject": "../../RewardsSystem.Common/RewardsSystem.Common.csproj"
+      "path": "../RewardsSystem.Common/RewardsSystem.Common.csproj",
+      "msbuildProject": "../RewardsSystem.Common/RewardsSystem.Common.csproj"
     },
     "RewardsSystem.Domain/1.0.0": {
       "type": "project",
@@ -1989,9 +1989,6 @@
             },
             "C:\\Users\\Denis\\source\\repos\\RewardsSystem\\infrastructure\\RewardsSystem.Persistence\\RewardsSystem.Persistence.csproj": {
               "projectPath": "C:\\Users\\Denis\\source\\repos\\RewardsSystem\\infrastructure\\RewardsSystem.Persistence\\RewardsSystem.Persistence.csproj"
-            },
-            "C:\\Users\\Denis\\source\\repos\\RewardsSystem\\RewardsSystem.Common\\RewardsSystem.Common.csproj": {
-              "projectPath": "C:\\Users\\Denis\\source\\repos\\RewardsSystem\\RewardsSystem.Common\\RewardsSystem.Common.csproj"
             }
           }
         }

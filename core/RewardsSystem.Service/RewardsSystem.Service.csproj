@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\infrastructure\RewardsSystem.Persistence\RewardsSystem.Persistence.csproj" />
-    <ProjectReference Include="..\..\RewardsSystem.Common\RewardsSystem.Common.csproj" />
     <ProjectReference Include="..\RewardsSystem.Common\RewardsSystem.Common.csproj" />
   </ItemGroup>
 

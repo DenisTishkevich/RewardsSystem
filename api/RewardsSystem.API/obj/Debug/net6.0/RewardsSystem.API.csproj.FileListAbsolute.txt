@@ -123,3 +123,5 @@ C:\Users\Denis\source\repos\RewardsSystem\api\RewardsSystem.API\bin\Debug\net6.0
 C:\Users\Denis\source\repos\RewardsSystem\api\RewardsSystem.API\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\Denis\source\repos\RewardsSystem\api\RewardsSystem.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Denis\source\repos\RewardsSystem\api\RewardsSystem.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Denis\source\repos\RewardsSystem\api\RewardsSystem.API\bin\Debug\net6.0\RewardsSystem.Common.dll
+C:\Users\Denis\source\repos\RewardsSystem\api\RewardsSystem.API\bin\Debug\net6.0\RewardsSystem.Common.pdb

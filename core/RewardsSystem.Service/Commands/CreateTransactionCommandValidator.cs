@@ -7,9 +7,13 @@ public class CreateTransactionCommandValidator : AbstractValidator<CreateTransac
 {
     public CreateTransactionCommandValidator()
     {
+        RuleFor(x => x.Transaction.CustomerId)
+            .GreaterThan(0)
+            .WithMessage(ValidationMessages.OnlyPositiveNumbersForCustomerId);
+
         RuleFor(x => x.Transaction.Price)
             .GreaterThan(0)
-            .WithMessage(ValidationMessages.OnlyPositiveNumbers);
+            .WithMessage(ValidationMessages.OnlyPositiveNumbersForPrice);
 
         RuleFor(x => x.Transaction.Price)
             .ScalePrecision(2, 8);
@@ -27,7 +31,8 @@ public class CreateTransactionCommandValidator : AbstractValidator<CreateTransac
 
     public static class ValidationMessages
     {
+        public const string OnlyPositiveNumbersForCustomerId = "The Customer ID must be only a positive number.";
         public const string PreValidateErrorMessage = "Please ensure a model was supplied.";
-        public const string OnlyPositiveNumbers = "The price must be only a positive number.";
+        public const string OnlyPositiveNumbersForPrice = "The price must be only a positive number.";
     }
 }

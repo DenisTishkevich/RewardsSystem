@@ -5815,8 +5815,8 @@
     },
     "RewardsSystem.Common/1.0.0": {
       "type": "project",
-      "path": "../../RewardsSystem.Common/RewardsSystem.Common.csproj",
-      "msbuildProject": "../../RewardsSystem.Common/RewardsSystem.Common.csproj"
+      "path": "../../core/RewardsSystem.Common/RewardsSystem.Common.csproj",
+      "msbuildProject": "../../core/RewardsSystem.Common/RewardsSystem.Common.csproj"
     },
     "RewardsSystem.Domain/1.0.0": {
       "type": "project",

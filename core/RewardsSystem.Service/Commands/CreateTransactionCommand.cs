@@ -11,10 +11,10 @@ public record CreateTransactionCommand(CreateTransactionView Transaction) : IReq
 
 public class CreateTransactionCommandHandler : IRequestHandler<CreateTransactionCommand, int>
 {
-    private readonly ILogger<CreateCustomerCommandHandler> _logger;
+    private readonly ILogger<CreateTransactionCommandHandler> _logger;
     private readonly CustomerDbContext _context;
 
-    public CreateTransactionCommandHandler(ILogger<CreateCustomerCommandHandler> logger, CustomerDbContext context)
+    public CreateTransactionCommandHandler(ILogger<CreateTransactionCommandHandler> logger, CustomerDbContext context)
     {
         _logger = logger;
         _context = context;
@@ -53,7 +53,7 @@ public class CreateTransactionCommandHandler : IRequestHandler<CreateTransaction
         }
     }
 
-    private decimal CalculatePoints(decimal price)
+    public decimal CalculatePoints(decimal price)
     {
         decimal pointsAmount = 0;
         if(price >= 50)

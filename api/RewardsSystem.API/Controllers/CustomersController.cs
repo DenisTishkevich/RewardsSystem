@@ -19,15 +19,17 @@ public class CustomersController : ControllerBase
 
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public async Task<IEnumerable<CustomerView>> Get(CancellationToken ct)
+    public async Task<ActionResult<IEnumerable<CustomerView>>> Get(CancellationToken ct)
     {
-        return await Mediator.Send(new GetCustomersQuery(), ct);
+        var result = await Mediator.Send(new GetCustomersQuery(), ct);
+        return Ok(result);
     }
 
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<ActionResult<int>> Create(CreateCustomerView request, CancellationToken ct)
     {
-        return await Mediator.Send(new CreateCustomerCommand(request), ct);
+        var result = await Mediator.Send(new CreateCustomerCommand(request), ct);
+        return Ok(result);
     }
 }

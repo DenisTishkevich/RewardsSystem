@@ -20,6 +20,7 @@ public class TransactionsController : ControllerBase
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<ActionResult<int>> Create(CreateTransactionView request, CancellationToken ct)
     {
-        return await Mediator.Send(new CreateTransactionCommand(request), ct);
+        var result = await Mediator.Send(new CreateTransactionCommand(request), ct);
+        return Ok(result);
     }
 }

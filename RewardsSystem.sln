@@ -12,7 +12,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RewardsSystem.Shared", "cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RewardsSystem.Service", "core\RewardsSystem.Service\RewardsSystem.Service.csproj", "{6ACDA820-5A5D-4C46-93F1-D267B84CF548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RewardsSystem.Common", "core\RewardsSystem.Common\RewardsSystem.Common.csproj", "{8CC633F8-6D53-4643-8430-D6C756466BCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RewardsSystem.Common", "core\RewardsSystem.Common\RewardsSystem.Common.csproj", "{8CC633F8-6D53-4643-8430-D6C756466BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RewardsSystem.Tests", "tests\RewardsSystem.Tests\RewardsSystem.Tests.csproj", "{77796E22-38BD-43E6-8F97-390A906D263C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{8CC633F8-6D53-4643-8430-D6C756466BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CC633F8-6D53-4643-8430-D6C756466BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CC633F8-6D53-4643-8430-D6C756466BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77796E22-38BD-43E6-8F97-390A906D263C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77796E22-38BD-43E6-8F97-390A906D263C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77796E22-38BD-43E6-8F97-390A906D263C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77796E22-38BD-43E6-8F97-390A906D263C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

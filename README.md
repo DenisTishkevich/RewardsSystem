@@ -29,7 +29,7 @@ dotnet run -p RewardsSystem.API --configuration Development
 ```
 
 ## Used Technologies
-.NET 6, C#10, .NET Core Web API, Entity Framework Core, MediatR, Fluent Validations, AutoMapper, Health Check, Logger, Swagger.
+.NET 6, C#10, .NET Core Web API, Entity Framework Core, MediatR, Fluent Validations, AutoMapper, Health Check, Logger, Swagger, xUnit (unit-tests).
 
 ## Database Diagram
 ![image](https://user-images.githubusercontent.com/110542997/183072349-d3dbb8dd-721a-42d8-ac32-d194e983413c.png)
@@ -142,7 +142,27 @@ Using MediatR, I implemented the CQRS pattern, that is, I separated the logic of
 By using AutoMapper, I have reduced the amount of code that would have to be written to create an object and populate all of its fields.
 
 ## Unit Tests
-Soon...
+CD into `RewardsSystem`.
+
+If Visual Studio is installed: click at the top View - Test Explorer - Run All Tests in View.
+
+If Visual Studio is not installed: via the console with coverage report:
+
+```console
+dotnet test --collect "Code Coverage"
+```
+
+If on windows, you can follow instructions on [coverlet local host setup](https://www.code4it.dev/blog/code-coverage-vs-2019-coverlet) and generate coverage reports.
+
+Just the tests:
+
+```console
+dotnet test
+```
+
+VSCode extension:
+'.NET Core Test Explorer'
+
 
 ## Docker
 I have added the docker-compose.yml and DockerFile files to the project, but unfortunately there are some problems and I am trying to figure it out. The database is created, but there are problems with copying the project. I will try to fix this problem and then only one command will remain in the project launch after cloning - docker-compose up.

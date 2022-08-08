@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using RewardsSystem.Domain.Exceptions;
 using RewardsSystem.Persistence.DbContexts;
@@ -27,24 +28,25 @@ namespace RewardsSystem.Service.Queries
             try
             {
                 var customers = _context.Customers
-                .GroupJoin(_context.Transactions,
-                    u => u.Id,
-                    c => c.CustomerId,
-                    (u, c) => new
-                    {
-                        Id = u.Id,
-                        Name = u.Name,
-                        Transactions = c
-                    })
-                .SelectMany(
-                    x => x.Transactions.DefaultIfEmpty(),
-                   (customer, transaction) => new
-                   {
-                       Id = customer.Id,
-                       Name = customer.Name,
-                       Transaction = transaction
-                   })
-                .ToList();
+                    .GroupJoin(_context.Transactions,
+                        u => u.Id,
+                        c => c.CustomerId,
+                        (u, c) => new
+                        {
+                            Id = u.Id,
+                            Name = u.Name,
+                            Transactions = c
+                        })
+                    .SelectMany(
+                        x => x.Transactions.DefaultIfEmpty(),
+                       (customer, transaction) => new
+                       {
+                           Id = customer.Id,
+                           Name = customer.Name,
+                           Transaction = transaction
+                       })
+                    .AsNoTracking()
+                    .ToList();
 
                 var result = customers
                     .GroupBy(x => x.Id)

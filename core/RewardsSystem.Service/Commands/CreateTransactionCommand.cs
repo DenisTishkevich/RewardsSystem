@@ -56,13 +56,15 @@ public class CreateTransactionCommandHandler : IRequestHandler<CreateTransaction
     public decimal CalculatePoints(decimal price)
     {
         decimal pointsAmount = 0;
-        if(price >= 50)
+        int priceInInt = (int)decimal.Truncate(price);
+
+        if (price >= 50)
         {
-            pointsAmount = price - 50;
+            pointsAmount = priceInInt - 50;
         }
-        if(price > 100)
+        if (price > 100)
         {
-            pointsAmount += price - 100;
+            pointsAmount += priceInInt - 100;
         }
 
         return pointsAmount;

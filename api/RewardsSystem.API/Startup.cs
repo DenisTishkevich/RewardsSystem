@@ -33,7 +33,6 @@ public class Startup
         string connection = Configuration.GetConnectionString("DefaultConnection");
         services.AddDbContext<CustomerDbContext>(options => options.UseSqlServer(connection));
         services.AddControllersWithViews();
-        services.AddRazorPages();
 
         services.AddHealthChecks()
             .AddDbContextCheck<CustomerDbContext>()
@@ -67,8 +66,6 @@ public class Startup
         app.UseRouting();
 
         app.UseHttpsRedirection();
-
-        app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>
         {

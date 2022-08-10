@@ -7,7 +7,7 @@ using RewardsSystem.Service.Queries;
 namespace RewardsSystem.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("customers")]
 public class CustomersController : ControllerBase
 {
     public IMediator Mediator { get; }
